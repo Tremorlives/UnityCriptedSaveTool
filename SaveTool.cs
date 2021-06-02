@@ -8,7 +8,6 @@ namespace SaveToolKit
 {
     public static class SaveTool
     {
-        static Test test;
         public static void Save(string file,object tosave)
         {
             string json = JsonUtility.ToJson(tosave);
